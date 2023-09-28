@@ -4,6 +4,9 @@ execute unless data storage unif.menu:cache Cache.Print.Widget.value.underlined 
 execute unless data storage unif.menu:cache Cache.Print.Widget.value.strikethrough run data modify storage unif.menu:cache Cache.Print.Widget.value.strikethrough set value "false"
 execute unless data storage unif.menu:cache Cache.Print.Widget.value.obfuscated run data modify storage unif.menu:cache Cache.Print.Widget.value.obfuscated set value "false"
 
+execute unless data storage unif.menu:cache Cache.Print.Widget.value.hover_text run data modify storage unif.menu:cache Cache.Print.Widget.value.hover_text set value ""
+
+
 function unif.menu:private/widget/text/output with storage unif.menu:cache Cache.Print.Widget.value
 
 data remove storage unif.menu:cache Cache.Process.ListIntoJSONTexts
