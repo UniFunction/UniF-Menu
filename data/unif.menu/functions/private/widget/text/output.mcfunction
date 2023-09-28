@@ -1,0 +1,2 @@
+$data modify storage unif.menu:cache Cache.Process.ListIntoJSONTexts set value '{"text": "$(text)","bold": "$(bold)","italic": "$(italic)", "strikethrough": "$(strikethrough)", "obfuscated": "$(obfuscated)", "underlined": "$(underlined)"}'
+data modify storage unif.menu:cache Cache.Output.JSONTexts append from storage unif.menu:cache Cache.Process.ListIntoJSONTexts

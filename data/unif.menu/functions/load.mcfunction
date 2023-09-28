@@ -1,0 +1,1 @@
+execute as @a run function #unif.logger:logger/v1/debug {"msg":'UniF-Menu was successfully loaded!',"namespace":"UniF-Menu"}
