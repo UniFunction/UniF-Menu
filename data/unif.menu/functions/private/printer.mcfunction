@@ -1,1 +1,1 @@
-$tellraw @s [$(Merged)]
+$tellraw @s [{"text": "","color": "white","extra": [$(Merged)]}]
