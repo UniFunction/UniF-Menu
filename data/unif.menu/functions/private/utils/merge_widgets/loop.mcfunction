@@ -15,4 +15,4 @@ execute unless score $len unif.10001 matches ..1 run data remove storage unif.me
 execute unless score $len unif.10001 matches ..1 store result score $len unif.10001 run data get storage unif.menu:cache Cache.Process.Merge.P1
 
 # 递归
-execute unless score $len unif.10001 matches ..1 run function unif.menu:private/utils/merge_widgets/loop1
+execute unless score $len unif.10001 matches ..1 run function unif.menu:private/utils/merge_widgets/loop

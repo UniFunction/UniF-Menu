@@ -10,7 +10,7 @@ data remove storage unif.menu:cache Cache.Output.JSONTexts
 scoreboard objectives add unif.10000 dummy "Cache"
 
 # 递归处理 Widgets
-function unif.menu:private/page/line/process/loop
+function unif.menu:private/line/process/loop
 
 scoreboard objectives remove unif.10000
 data remove storage unif.menu:cache Cache.Print.Widget
