@@ -1,4 +1,4 @@
-# 获取剩余 Widgets 数量
+# 获取剩余组件数量
 execute store result score $widgets unif.10000 run data get storage unif.menu:cache Cache.Print.Line
 
 data modify storage unif.menu:cache Cache.Print.Widget set from storage unif.menu:cache Cache.Print.Line[0]
