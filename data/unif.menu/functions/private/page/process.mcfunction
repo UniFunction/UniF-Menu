@@ -1,0 +1,1 @@
+$function unif.menu:private/page/process/entry {storage:"$(storage)",path:"$(path)"}
